@@ -1,12 +1,38 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import FeaturedJobs from '@/components/FeaturedJobs';
+import TopCompanies from '@/components/TopCompanies';
+import Footer from '@/components/Footer';
+import { mockJobs, mockCompanies } from '@/data/mockData';
 
 const Index = () => {
+  const navigate = useNavigate();
+  
+  const handleSearch = (query: string, location: string) => {
+    // Construct search parameters
+    const params = new URLSearchParams();
+    if (query) params.append('query', query);
+    if (location) params.append('location', location);
+    
+    // Navigate to jobs page with search params
+    navigate({
+      pathname: '/jobs',
+      search: params.toString()
+    });
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <main className="flex-grow">
+        <Hero onSearchSubmit={handleSearch} />
+        <FeaturedJobs jobs={mockJobs} />
+        <TopCompanies companies={mockCompanies} />
+      </main>
+      <Footer />
     </div>
   );
 };
