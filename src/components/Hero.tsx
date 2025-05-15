@@ -18,15 +18,15 @@ const Hero = ({ onSearchSubmit }: HeroProps) => {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white py-16 md:py-24">
+    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-background py-16 md:py-24">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-8 text-center">
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Discover Your Next Career Opportunity
+              Find Your Dream Job in Kenya
             </h1>
-            <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Browse thousands of jobs from top companies and find the perfect role for your skills and experience.
+            <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Browse thousands of jobs from top Kenyan companies and find the perfect role for your skills and experience.
             </p>
           </div>
           
@@ -43,7 +43,7 @@ const Hero = ({ onSearchSubmit }: HeroProps) => {
               <MapPin className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
               <Input 
                 name="location" 
-                placeholder="City, state, or remote" 
+                placeholder="Nairobi, Mombasa, or Remote" 
                 className="pl-10" 
               />
             </div>
@@ -52,11 +52,11 @@ const Hero = ({ onSearchSubmit }: HeroProps) => {
             </Button>
           </form>
           
-          <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-500">
+          <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-500 dark:text-gray-400">
             <span>Popular searches:</span>
             <a href="#" className="hover:text-primary transition-colors">Software Engineer</a>
-            <a href="#" className="hover:text-primary transition-colors">Product Manager</a>
-            <a href="#" className="hover:text-primary transition-colors">Data Scientist</a>
+            <a href="#" className="hover:text-primary transition-colors">Marketing</a>
+            <a href="#" className="hover:text-primary transition-colors">NGO Jobs</a>
             <a href="#" className="hover:text-primary transition-colors">Remote</a>
           </div>
         </div>

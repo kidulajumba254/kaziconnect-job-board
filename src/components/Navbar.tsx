@@ -1,13 +1,14 @@
 
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from './ThemeToggle';
 
 const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link to="/" className="font-bold text-xl text-primary">JobMosaic</Link>
+          <Link to="/" className="font-bold text-xl text-primary">KaziConnect</Link>
         </div>
         
         <nav className="hidden md:flex items-center gap-6">
@@ -17,6 +18,7 @@ const Navbar = () => {
         </nav>
         
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <Button variant="outline" size="sm" asChild>
             <Link to="/post-job">Post a Job</Link>
           </Button>
