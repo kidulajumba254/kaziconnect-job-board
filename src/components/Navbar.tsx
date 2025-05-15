@@ -20,10 +20,10 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <Button variant="outline" size="sm" asChild>
-            <Link to="/post-job">Post a Job</Link>
+            <Link to="/sign-in">Sign In</Link>
           </Button>
           <Button size="sm" asChild>
-            <Link to="/sign-in">Sign In</Link>
+            <Link to="/sign-up">Sign Up</Link>
           </Button>
         </div>
       </div>
