@@ -27,7 +27,7 @@ export const mockJobs: Job[] = [
     ],
     postedDate: "2025-05-01",
     experienceLevel: "Mid",
-    logo: "/placeholder.svg",
+    logo: "/logos/safaricom.svg",
     featured: true,
     remote: true
   },
@@ -56,7 +56,7 @@ export const mockJobs: Job[] = [
     ],
     postedDate: "2025-05-03",
     experienceLevel: "Senior",
-    logo: "/placeholder.svg",
+    logo: "/logos/equity.svg",
     featured: false,
     remote: false
   },
@@ -85,7 +85,7 @@ export const mockJobs: Job[] = [
     ],
     postedDate: "2025-05-05",
     experienceLevel: "Mid",
-    logo: "/placeholder.svg",
+    logo: "/logos/andela.svg",
     remote: true
   },
   {
@@ -113,7 +113,7 @@ export const mockJobs: Job[] = [
     ],
     postedDate: "2025-05-07",
     experienceLevel: "Senior",
-    logo: "/placeholder.svg",
+    logo: "/logos/kcb.svg",
     remote: true
   },
   {
@@ -141,7 +141,7 @@ export const mockJobs: Job[] = [
     ],
     postedDate: "2025-05-08",
     experienceLevel: "Mid",
-    logo: "/placeholder.svg",
+    logo: "/logos/twiga.svg",
     remote: false
   },
   {
@@ -169,7 +169,7 @@ export const mockJobs: Job[] = [
     ],
     postedDate: "2025-05-10",
     experienceLevel: "Senior",
-    logo: "/placeholder.svg",
+    logo: "/logos/safaricom.svg",
     featured: true,
     remote: false
   }
@@ -179,7 +179,7 @@ export const mockCompanies: Company[] = [
   {
     id: "company1",
     name: "Safaricom",
-    logo: "/placeholder.svg",
+    logo: "/logos/safaricom.svg",
     description: "Safaricom is Kenya's leading telecommunications company, offering mobile and fixed voice services, SMS, data, and financial services. As one of East Africa's most innovative companies, we're committed to transforming lives through technology and connectivity.",
     website: "https://www.safaricom.co.ke",
     location: "Nairobi, Kenya",
@@ -191,7 +191,7 @@ export const mockCompanies: Company[] = [
   {
     id: "company2",
     name: "Equity Bank",
-    logo: "/placeholder.svg",
+    logo: "/logos/equity.svg",
     description: "Equity Bank is a financial services company with headquarters in Nairobi, Kenya. The company's focus is on providing financial inclusion and services to underserved populations across East Africa.",
     website: "https://equitygroupholdings.com",
     location: "Nairobi, Kenya",
@@ -203,7 +203,7 @@ export const mockCompanies: Company[] = [
   {
     id: "company3",
     name: "Andela Kenya",
-    logo: "/placeholder.svg",
+    logo: "/logos/andela.svg",
     description: "Andela is a global talent network that connects companies with vetted, remote engineers in emerging markets. Andela helps companies build distributed engineering teams quickly and cost-effectively.",
     website: "https://andela.com",
     location: "Nairobi, Kenya",
@@ -215,7 +215,7 @@ export const mockCompanies: Company[] = [
   {
     id: "company4",
     name: "KCB Group",
-    logo: "/placeholder.svg",
+    logo: "/logos/kcb.svg",
     description: "KCB Group is East Africa's largest commercial bank, established in 1896 in Kenya. The bank has grown to become a leading financial institution with operations across the region, offering a wide range of banking and financial services.",
     website: "https://kcbgroup.com",
     location: "Nairobi, Kenya",
@@ -227,7 +227,7 @@ export const mockCompanies: Company[] = [
   {
     id: "company5",
     name: "Twiga Foods",
-    logo: "/placeholder.svg",
+    logo: "/logos/twiga.svg",
     description: "Twiga Foods is a Kenyan agricultural technology company that connects farmers and food producers with small and medium-sized vendors through a B2B e-commerce platform, improving food supply chains across Africa.",
     website: "https://twiga.com",
     location: "Nairobi, Kenya",

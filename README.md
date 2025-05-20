@@ -1,7 +1,9 @@
 
 # KaziConnect - Kenya Job Portal Simulation
 
-![KaziConnect Logo](/placeholder.svg)
+<p align="center">
+  <img src="/public/logos/kaziconnect.svg" alt="KaziConnect Logo" width="150" />
+</p>
 
 ## 📋 Project Overview
 
