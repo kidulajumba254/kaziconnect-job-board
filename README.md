@@ -16,6 +16,8 @@
 - **Company Profiles:** View detailed information about simulated Kenyan employers
 - **Dark/Light Theme:** Choose your preferred viewing experience
 - **User Authentication Flow:** Simulated sign-up, sign-in, and password reset functionality
+![image](https://github.com/user-attachments/assets/34df359e-8067-4276-bc9f-b28e93c4b5d9)
+
 - **Responsive Design:** Optimized for both desktop and mobile devices
 
 ## 💡 Purpose
@@ -75,9 +77,6 @@ yarn dev
 
 4. Open your browser and navigate to `http://localhost:5173`
 
-## 📱 Screenshots
-
-*[Screenshots would be added here in a real README]*
 
 ## 🤝 Contributing
 
