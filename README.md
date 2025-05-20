@@ -5,6 +5,8 @@
 ## 📋 Project Overview
 
 **KaziConnect** is a simulation project that demonstrates how a modern job portal for the Kenyan job market might function. This is NOT a real job board - all companies, job listings, and user accounts are fictional and created for demonstration purposes only.
+![image](https://github.com/user-attachments/assets/b07447e6-3404-490e-b3cd-9f24ae24f0b4)
+
 
 ## 🚀 Features
 
