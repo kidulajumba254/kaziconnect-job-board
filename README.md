@@ -1,9 +1,6 @@
 
 # KaziConnect - Kenya Job Portal Simulation
 
-<p align="center">
-  <img src="/public/logos/kaziconnect.svg" alt="KaziConnect Logo" width="150" />
-</p>
 
 ## 📋 Project Overview
 
@@ -12,6 +9,8 @@
 ## 🚀 Features
 
 - **Job Search:** Browse through simulated job listings from fictional Kenyan companies
+- ![image](https://github.com/user-attachments/assets/3d60ae6b-6d7f-476d-bffc-2eec9504b04d)
+
 - **Company Profiles:** View detailed information about simulated Kenyan employers
 - **Dark/Light Theme:** Choose your preferred viewing experience
 - **User Authentication Flow:** Simulated sign-up, sign-in, and password reset functionality
@@ -54,7 +53,7 @@ Please note that:
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone <https://github.com/kidulajumba254/kaziconnect-job-board.git>
 cd kaziconnect
 ```
 
