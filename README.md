@@ -58,7 +58,7 @@ Please note that:
 1. Clone the repository
 ```bash
 git clone <https://github.com/kidulajumba254/kaziconnect-job-board.git>
-cd kaziconnect
+cd kaziconnect-job-board
 ```
 
 2. Install dependencies
