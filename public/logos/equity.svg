@@ -1,4 +1,9 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="#1565C0">
-  <path d="M50,50h200v200H50V50z M80,80v140h140V80H80z M110,110h80v80h-80V110z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <g transform="translate(30, 100)">
+    <!-- Equity Bank logo with more accurate representation -->
+    <path fill="#00AEEF" d="M0,0h70v20H20v20h40v20H20v20h50v20H0V0z"/>
+    <path fill="#00AEEF" d="M80,0h40l30,50l30-50h40v100h-30V40l-40,60l-40-60v60H80V0z"/>
+    <path fill="#00AEEF" d="M230,0h60v100h-60V0z M260,20c-8.3,0-15,6.7-15,15s6.7,15,15,15s15-6.7,15-15S268.3,20,260,20z"/>
+  </g>
 </svg>

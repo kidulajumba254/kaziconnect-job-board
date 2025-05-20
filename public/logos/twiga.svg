@@ -1,4 +1,9 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="#8BC34A">
-  <path d="M150,20L20,150h60l70-70l70,70h60L150,20z M90,150v130h40V150H90z M170,150v130h40V150H170z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <g transform="translate(40, 80)">
+    <!-- Twiga Foods logo with more accurate representation -->
+    <path fill="#047738" d="M0,0h220v40H140v100h-40V40H20v100H0V0z"/>
+    <circle fill="#047738" cx="180" cy="20" r="20"/>
+    <path fill="#047738" d="M180,50l20,30l-20,20l-20-20L180,50z"/>
+  </g>
 </svg>

@@ -1,4 +1,10 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="#3F51B5">
-  <path d="M150,20L20,150l130,130l130-130L150,20z M150,60l90,90l-90,90l-90-90L150,60z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <g transform="translate(50, 75)">
+    <!-- Andela logo with more accurate representation -->
+    <path fill="#3359DB" d="M100,0L0,100h200L100,0z"/>
+    <path fill="#3359DB" d="M100,40l-40,40h80L100,40z"/>
+    <path fill="#3359DB" d="M40,120v30h30v-30H40z"/>
+    <path fill="#3359DB" d="M130,120v30h30v-30H130z"/>
+  </g>
 </svg>

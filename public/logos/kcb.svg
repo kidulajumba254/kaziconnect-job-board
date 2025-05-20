@@ -1,4 +1,10 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="#FFC107">
-  <path d="M150,20c71.8,0,130,58.2,130,130s-58.2,130-130,130S20,221.8,20,150S78.2,20,150,20z M90,90v120h120V90H90z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <g transform="translate(35, 75)">
+    <!-- KCB Bank logo with more accurate representation -->
+    <rect fill="#63B22F" x="0" y="0" width="230" height="150" rx="10"/>
+    <path fill="#FFCB05" d="M20,20h70v110h-70V20z"/>
+    <path fill="#FFFFFF" d="M110,20h40l30,50l-30,60h-40l30-60L110,20z"/>
+    <path fill="#FFFFFF" d="M190,20h20v110h-20V20z"/>
+  </g>
 </svg>
